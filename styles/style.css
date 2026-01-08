@@ -9,6 +9,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    max-width: 1600px;
 }
 .navbar .logo img{
     padding-top: 16px;
@@ -23,9 +24,10 @@
 .navbar ul a{
     text-decoration: none;
     color: black;
+    font-size: 16px;
     
 }
-.navbar .btn1{
+ .btn1{
     margin: 24px 120px 24px 0;
     padding: 16px 12px;
     color: white;
@@ -35,13 +37,99 @@
     border: none;
     cursor: pointer;
 }
-.navbar .btn1:hover{
+.btn1:hover{
     margin: 24px 120px 24px 0;
     padding: 16px 12px;
     color: white;
     font-size: bold;
-    background-color: rgb(83, 83, 202);
+    background-color:#0C2134;
     border-radius: 4px;
     border: none;
     cursor: pointer;
+}
+
+.banner{
+    background: url("../assets/hero-bg.png");
+    text-align: center;
+    background-size: cover;
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn4{
+    margin: 24px 120px 24px 0;
+    padding: 16px 12px;
+    color: white;
+    font-size: bold;
+    background-color: #469165;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.btn4:hover{
+    margin: 24px 120px 24px 0;
+    padding: 16px 12px;
+    color: #469165;
+    font-size: bold;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    color:#30B868;
+    font-size: bold;
+    background-color:white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border: none;
+    margin-bottom: 16px;
+    margin-right: 0;
+}
+.btn2:hover{
+    color:white;
+    font-size: bold;
+    background-color:#30B868;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border: none;
+    margin-bottom: 16px;
+}
+.banner h1{
+    color: white;
+    font-size: 72px;
+}
+.banner span{
+    color: #30B868;
+}
+.banner p{
+    color: white;
+    line-height: 24px;
+    font-size: 18px;
+}
+.btn3{
+    /* margin: 24px 120px 24px 16px; */
+    padding: 16px 12px;
+    color:white;
+    font-size: bold;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.btn3:hover{
+    /* margin: 24px 120px 24px 16px; */
+    padding: 16px 12px;
+    color:#30B868;
+    font-size: bold;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
 }
